@@ -1,0 +1,291 @@
+
+.footer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  background-color: #1c39bb;
+  color: #fff;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+
+
+}
+
+.sections {
+  max-width: 1216px;
+  margin: 0 auto !important; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.sectionInfo {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: row;
+  padding-top: 48px;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.sectionDesc {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column
+}
+
+.logoCont {
+  background: #fff;
+  width: auto;
+  top: 52px;
+  padding: 12px 14px;
+  border-radius: 0 8px 8px 0
+}
+
+.logo {
+  width: 100px;
+}
+
+.description {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  max-width: 400px;
+  margin: 10px 0 0;
+  color: #c1c2c5;
+}
+
+.section p {
+  margin-bottom: 10px;
+}
+
+.pages {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: auto;
+  flex-direction: column;
+  
+}
+
+.pages h3 {
+  margin-bottom: 16px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0;
+}
+
+
+.links {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 0;
+  color: #c1c2c5;
+}
+
+.links a {
+  color: #c1c2c5;
+  text-decoration: none;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 33px;
+  margin-bottom: 12px;
+  transition: color 0.3s ease;
+}
+
+.contacUs {
+  display: flex;
+  align-items: stretch;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.contacUs h3 {
+  font-style: normal;
+  margin-bottom: 16px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-direction: row;
+  width: 100%;
+  filter: brightness(0) invert(1)
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  color: #ffffff;
+
+}
+
+.sectionEnd {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding-top: 20px;
+  padding-bottom: 48px;
+  color: #c1c2c5;
+}
+
+
+@media only screen and (max-width: 500px) {
+
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: #1c39bb;
+    color: #fff;
+  }
+
+  .logoCont {
+    background: transparent;
+    width: auto;
+    height: 88px;
+    top: 52px;
+    padding: 12px 8px;
+  }
+
+  .logo {
+    width: 100px;
+    margin-bottom: 10px;
+    filter: brightness(0) invert(1)
+  }
+
+  .sectionDesc {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 10px;
+    text-align: center;
+  }
+
+  .sectionInfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 48px;
+    width: 100%;
+    text-align: center;
+
+  }
+
+  .description {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 28px;
+    max-width: 388px;
+    margin: 10px 0 0;
+    color: #c1c2c5;
+  }
+
+  .sections {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+  }
+
+  .pages {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .pages h3 {
+    margin-bottom: 16px;
+    font-size: 21px;
+    width: 100%;
+    font-weight: 500;
+
+  }
+
+
+  .links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    color: #c1c2c5;
+    margin-bottom: 40px;
+
+  }
+
+  .links a {
+    color: #c1c2c5;
+    text-decoration: none;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px;
+    margin-bottom: 12px;
+    transition: color 0.3s ease;
+  }
+
+  .contacUs {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    max-width: 320px
+  }
+
+  .contacUs h3 {
+    font-style: normal;
+    margin-bottom: 16px;
+    font-size: 21px;
+    text-align: center;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0
+  }
+
+  .icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction: row;
+    width: 100%;
+    filter: brightness(0) invert(1)
+  }
+
+  .sectionEnd {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 48px;
+    color: #c1c2c5;
+  }
+}

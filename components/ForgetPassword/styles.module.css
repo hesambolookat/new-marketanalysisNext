@@ -1,0 +1,147 @@
+
+.loginPage {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #111216;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+
+
+}
+.headerLogo{
+  width: 138px;
+  height: 53px;
+  top: 90px;
+  padding: 4px 8px;
+  border-radius: 0 8px 8px 0;
+  margin-top: 20px;
+  background: #fff;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-bottom: 16px;
+}
+.headerLogo img{
+  width: 100px;
+  aspect-ratio: auto 100 / 45;
+  height: 45px;
+}
+
+.backArrow {
+  margin: 10px 5px 0px 50px;
+  cursor: pointer;
+
+  }
+
+.loginContainer {
+  width: 100%;
+
+}
+.headrTitle{
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.numberInput{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 50%;
+  gap: 5px;
+  margin-top: -150px;
+}
+
+.codeInput{
+  display: flex;
+  flex-direction: column;
+  
+}
+.numberInput span{
+  margin-top: 20px;
+}
+
+.codeNumber{
+  padding: 11px;
+  border-radius: 4px;
+  width: 80px;
+  height: 44px;
+  background: #484848;
+  
+}
+.codeNumber:focus{
+  border:none  ; 
+  outline: none; 
+}
+.phoneNumber{
+  padding: 11px;
+  border-radius: 4px;
+  width: 600px;
+  height: 44px;
+  background: #484848
+}
+.phoneNumber:focus{
+  border:none  ; 
+  outline: none; 
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 700px;
+  height: 325px;
+  margin: 0 auto;
+}
+
+.label {
+  font-size: 14px;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 8px;
+}
+
+.submitButton {
+  background: #1c39bb;
+  border-radius: 4px;
+  color: white;
+  padding: 6px 24px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0;
+  height: 38px;
+}
+
+
+.submitButton:hover {
+  background-color: #0056b3;
+}

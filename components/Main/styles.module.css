@@ -1,0 +1,281 @@
+.main{
+  background-image: linear-gradient(transparent, #000);
+  background-color: #14161c;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+}
+
+
+
+.container {
+  background-color: #14161c;
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: GillSans !important;
+  background-image: linear-gradient(transparent, #000);
+  max-width: 1216px;
+  margin: 0 auto !important; 
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  transition: all 2s;
+  
+}
+
+/* تنظیمات عنوان‌ها */
+.title {
+  max-width: 1216px;
+  margin: 0 auto !important; 
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 29px;
+  padding: 80px 0 40px 0;
+}
+
+/* تنظیمات کارت‌ها */
+.cards {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: auto;
+  margin-bottom: 2rem;
+}
+
+.card {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  max-width: 355px;
+  width: auto;
+  transition: all 2s;
+}
+
+.card img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.card h3 {
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 23px;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+
+.card p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  opacity: .6;
+}
+
+/* تنظیمات بخش ویدیو */
+.videoSection {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 2s;
+  padding-top: 80px;
+  gap: 40px;
+}
+
+.videoContainer {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  height: auto;
+  margin-bottom: 63px;
+}
+
+.videoPlayer {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.videoPlayer video {
+  width: 608px;
+  height: auto;
+  object-fit: cover;
+}
+
+/* تنظیمات پترن پس‌زمینه */
+.patternContLtr {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 90px;
+  left: 120px;  
+  background-position: 100% 0;
+  background-image: url("https://www.new-marketanalysis.com/imgs/hero/patterns/pattern3-ltr.png");
+  background-repeat: no-repeat;
+  background-size: 77%;
+  z-index: -1;
+}
+
+.descriptionCont {
+  position: relative;
+  width: 40%;
+}
+
+.description {
+  font-size: 15.7px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  opacity: .6;
+  
+}
+.descriptionSecond{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  opacity: .6;
+  margin: 30px 20px 30px 0;
+}
+
+/* تنظیمات لیست توضیحات */
+.descriptionLi {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 22px;
+  margin: 30px 20px 30px 0;
+}
+
+.descriptionLi img {
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+
+@media only screen and (max-width: 1100px) {
+
+  .container {
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    transition: all 2s;
+    padding-top: 30px;
+  }
+
+  .title {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 29px;
+    margin-bottom: 25px;
+    padding-top: 80px;
+
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 100%;
+    overflow-x: auto;
+  }
+  .card {
+    align-items: center;
+    text-align: center;
+    max-width: 70%;
+    width: 70%;
+    margin: 10px 4%;
+    min-width: 70%;
+  }
+  
+  .videoContainer {
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: linear-gradient(transparent, #000);
+  }
+
+  /* .patternContLtr {
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    bottom: 290px;
+    right: 0;
+    background-position: 100% 0;
+    background-image: url("https://www.new-marketanalysis.com/imgs/hero/patterns/pattern3-ltr.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: -1;
+  } */
+  .videoSection {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    transition: all 2s;
+    padding-top: 20px;
+  }
+ 
+  .videoPlayer {
+    width: 100%;
+    height: auto;
+    margin:0 auto;
+  }
+  .videoPlayer video {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  .description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0;
+    text-align: left;
+    opacity: .6;
+  }
+  .descriptionCont {
+    margin: 0;
+    padding-left:0rem;
+    padding-right: 0px;
+    width: 90%;
+  }
+
+  .descriptionLi img {
+    margin-right: 10px;
+    width: 24px;
+    height: 24px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .patternContLtr {
+    background-size: 48%;
+    width: 100%;
+    height: 100%;
+  }
+}
