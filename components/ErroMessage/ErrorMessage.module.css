@@ -1,0 +1,17 @@
+.error {
+  font-size: 14px;
+  margin-top: 5px;
+  position: relative;
+}
+
+.apiError {
+  color: #ff6347; /* Tomato red for API errors */
+  background-color: #ffe4e1; /* Light background for API errors */
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.validationError {
+  color: red; /* Standard red for validation errors */
+  background-color: transparent; /* No background for validation errors */
+}
