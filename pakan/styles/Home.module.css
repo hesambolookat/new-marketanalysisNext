@@ -1,0 +1,228 @@
+
+
+.header{
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+
+  
+}
+.headerBack{
+  width: 100%;
+  height: 100%;
+  margin: -50px 0px;
+  padding: 0 0px;
+  object-fit: contain;
+
+}
+.headerNav{
+  height: 100%;
+  -webkit-backdrop-filter: blur(11px);
+  backdrop-filter: blur(11px);
+  background-color: #ffffffa2;
+  border-radius: 8px;
+  z-index: 1;
+}
+.headerInfo{
+  display: flex;
+  align-items: center;
+}
+.headerInfo span{
+  display: flex;
+  align-items: center;
+  margin: 8.5px 36.5px 10.5px ;
+  font-size: 15px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.76;
+  letter-spacing: normal;
+  text-align: center;
+  color: #939598;
+}
+.lineFirst{
+  width: 0;
+  height: 39.5px;
+  margin: -9px 0 0;
+  opacity: 0.35;
+  border: solid 1px #707070;
+  margin-left: 30px;
+}
+.callNumber{
+display: flex;
+align-items: center;
+}
+.line{
+  width: 100%;
+  height: 0;
+  margin: -9px 0 0;
+  opacity: 0.35;
+  border: solid 1px #707070;
+}
+.Time,.call{
+  margin-right:10px ;
+}
+.Navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 40px;
+  
+}
+.NavbarFirst{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.NavbarFirst i{
+  margin: 2px 0 0 37px;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.47;
+  letter-spacing: normal;
+  text-align: center;
+  color: #6d6e71;
+}
+.logo{
+  margin:22px 0 22px 20px;
+}
+.NavbarSecond a{ 
+width: 50px;
+height: 28px;
+margin: 14px 0 13px 15.4px;
+font-family: YekanBakh;
+font-size: 19px;
+font-weight: 900;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.39;
+letter-spacing: normal;
+text-align: center;
+color: #f7941e;}
+
+.NavbarSecond button{
+  width: 106px;
+  height: 55px;
+  margin: 0 15.4px 0 0;
+  padding: 8px 9.7px 5.4px 9px;
+  border-radius: 35px;
+  border: none;
+  background-color: #f7941e;
+  font-size: 19px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.39;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+.title{
+  position: absolute;
+  right: 50px;
+  top: 186px;
+  font-size: 55px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.38;
+  letter-spacing: normal;
+  text-align: right;
+  color: #0054a6;
+}
+.description{
+  font-size: 48px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.44;
+  letter-spacing: normal;
+  text-align: right;
+  color: #0054a6;
+  position: absolute;
+  right: 50px;
+  top: 261px;
+}
+.headerLoc{
+  width: 1051px;
+  height: 171px;
+  margin: 539px 159px 0 156px;
+  padding: 51px 66px 48px 70px;
+  border-radius: 15px;
+  box-shadow: 0 0 60px 0 var(--untitled-peacock-blue-13);
+  background-color: #fff;
+  position: absolute;
+  right: 90px;
+  top: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1;
+}
+.pin{
+  width: 24px;
+  height: 30px;
+  margin: 7.4px 0 4.5px 18.1px;
+}
+.address{
+  display: flex;
+  flex-direction: column;
+}
+.addressText{
+  margin: 0 18.2px 11.9px 150.1px;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.32;
+  letter-spacing: normal;
+  text-align: center;
+  color: #707173;
+}
+.addressLine{
+  width: 344.1px;
+  height: 0;
+  margin: 4.5px 18.1px 0 0;
+  border: solid 2px #828384;
+}
+.MyLoction{
+  width: 70px;
+  height: 70px;
+  margin: 0 49.8px 2px 21px;
+  padding: 22px 22px 19.6px 20.3px;
+  border: solid 2px #0054a6;
+  border-radius: 100%;
+}
+.MyLoc{
+  width: 22px;
+  height: 22px;
+}
+.findLoc{
+  width: 388px;
+  height: 70px;
+  margin: 2px 21px 0 0;
+  padding: 1px 38.7px 4px 39px;
+  border: none;
+  border-radius: 35px;
+  background-color: #0054a6;
+  font-size: 22px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+.MainBackground{
+  width: 1366px;
+  height: 898px;
+  margin: 480px 0 30px;
+  padding: 315px 159px 53.7px 156px;
+  object-fit: contain;
+  z-index: 0;
+}
